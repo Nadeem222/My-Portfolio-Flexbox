@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+.sidebar>.nav{  
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 12vw;
+    height: 85vw;
+    margin: auto;
+    font-weight: bold;
+}
+.sidebar>.nav li{
+    list-style: none;
+    padding: 25px; 0;
+    font-size: 15px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+
+}
+.infocontainer{
+    display: flex;
+    height: 58vh;
+    width: 80vw;
+    justify-content: space-around;
+}
+.divinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: font-family: 'Fira Sans', sans-serif;;
+}
+.hello{
+    font-size: 85px;
+}
+.divname{
+    font-size: 35px;
+    font-weight: bold;
+}
+.divabout{
+    font-size: 20px;
+}
+.buttons button{}
+.divpic img{
+    height: 58vh;
+}
