@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: yellow; */
+    background-color: yellow;
     width: 90vw;
     height: 100vh;
 }
@@ -43,7 +43,7 @@
 }
 .infocontainer{
     display: flex;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     height: 48vh;
     width: 80vw;
     justify-content: space-around;
@@ -87,5 +87,7 @@
 }
 
 .divpic img{
+    display: flex;
+    align-items: stretch;
     height: 48vh;
 }
