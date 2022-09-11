@@ -43,7 +43,7 @@
 }
 .infocontainer{
     display: flex;
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     height: 48vh;
     width: 80vw;
     justify-content: space-around;
